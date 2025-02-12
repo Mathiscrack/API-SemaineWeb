@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lit App</title>
-</head>
-<body>
-  <div>Hello worldee</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trouve ta recette !</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="menu.js"></script>
+  </head>
+  <body>
+    <mon-element></mon-element>
+
+    <div class="container">
+      <h1>Rechercher une Recette 🍽️</h1>
+      <input type="text" id="search" placeholder="Entrez un ingrédient...">
+      <button onclick="searchMeal()">Rechercher</button>
+
+      <div id="meals-container"></div>
+  </div>
+
+  </body>
 </html>
