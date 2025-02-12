@@ -1,0 +1,29 @@
+{
+  "name": "api-semaineweb",
+  "version": "1.0.0",
+  "description": "Projet de la semaine de dep à rendre pour le 01/03/2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "wds --watch",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathiscrack/API-SemaineWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathiscrack/API-SemaineWeb/issues"
+  },
+  "homepage": "https://github.com/Mathiscrack/API-SemaineWeb#readme",
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6",
+    "typescript": "^5.7.3"
+  }
+}
