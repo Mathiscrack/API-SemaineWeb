@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
     <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="styles.css">
-    <script src="menu.js"></script>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="./src_built/meal-elem.js"></script>
   </head>
   <body>
-    <mon-element></mon-element>
+
+    <meal-elem></meal-elem>
 
     <div class="container">
       <h1>Rechercher une Recette 🍽️</h1>
